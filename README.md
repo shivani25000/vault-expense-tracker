@@ -1,20 +1,25 @@
-# 💸 Vault — Expense & Receipt Tracker
-
-Vault is a full-stack expense tracking web application designed to simplify personal finance management.
+# 💸 Vault — Expense Tracker
 
 ## 🚀 Features
-- Add and manage expenses with categories
-- Real-time budget tracking
-- Smart dashboard with analytics
-- AI-based receipt scanning (Claude API)
-- Integration simulation (Swiggy, Amazon, Zomato)
-- Reward system based on savings behavior
+- Add and manage expenses
+- Budget tracking
+- Smart dashboard
+- AI receipt analysis
+- Integration with apps like Swiggy, Amazon
 
 ## 🛠 Tech Stack
-- Backend: Python (Flask)
-- Frontend: HTML, CSS, JavaScript
-- APIs: RESTful API architecture
+- Python (Flask)
+- HTML, CSS, JavaScript
 
 ## ▶️ How to Run
 
-1. Install dependencies:
+1. Install:
+pip install flask flask-cors
+
+2. Run:
+python app.py
+
+3. Open index.html
+
+## 📌 Description
+Vault is a full-stack expense tracker that helps users manage spending, analyze receipts using AI, and track budgets in real time.
